@@ -66,6 +66,7 @@ footer {
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
+
 .accordion {
   background-color: white;
   color: black;
@@ -89,17 +90,14 @@ footer {
 }
 
 .accordion:after {
-  content: '\02795';
-  /* Unicode character for "plus" sign (+) */
-  font-size: 10px;
-  color: black;
   float: right;
-  margin-left: 5px;
+  font: var(--fa-font-solid);
+  content: "\2b";
 }
 
 .active:after {
-  content: "\2796";
-  /* Unicode character for "minus" sign (-) */
+  font: var(--fa-font-solid);
+  content: "\f068";
 }
 
 #accordionsample {
