@@ -1,0 +1,36 @@
+.container-fluid {
+  padding: 5% 12% 7%;
+}
+.title{
+  font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+}
+.disclaimer{
+  font-size: 10px;
+    line-height: 1.45;
+}
+.text-dark{
+  text-decoration: none;
+  line-height: 2;
+}
+.icon{
+  margin: 8px;
+}
+.socialmedia{
+  text-align: center;
+}
+.btn{
+  margin-top: 20px;
+}
+.copyright{
+  list-style:none;
+}
+.abc{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link{
+  font-size: 20px;
+  color: Black;
+}
