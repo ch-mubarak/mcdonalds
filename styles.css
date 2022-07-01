@@ -1,66 +1,117 @@
 .container-fluid {
   padding: 5% 12% 7%;
 }
-.title{
+
+.title {
   font-size: 36px;
-font-weight: 700;
-line-height: 40px;
+  font-weight: 700;
+  line-height: 40px;
 }
-.disclaimer{
+
+.disclaimer {
   font-size: 10px;
-    line-height: 1.45;
+  line-height: 1.45;
 }
-.text-dark{
+
+.text-dark {
   text-decoration: none;
   line-height: 2;
 }
-.icon{
+
+.icon {
   margin: 8px;
 }
-.socialmedia{
+
+.socialmedia {
   text-align: center;
 }
-.btn{
+
+.btn {
   margin-top: 20px;
 }
-.copyright{
-  list-style:none;
+
+.copyright {
+  list-style: none;
 }
-.abc{
+
+.abc {
   display: flex;
   justify-content: space-between;
 }
-.nav-link{
+
+.nav-link {
   font-size: 20px;
   color: Black;
 }
-.logo-footer{
+
+.logo-footer {
   width: 50px;
   height: 50px;
-
 }
-.copyright-text{
+
+.copyright-text {
   text-decoration: none;
   font-size: 12px;
   color: inherit;
 }
-.footer-text{
+
+.footer-text {
   text-align: left;
   font-size: 14px;
   margin-right: 10px;
-
 }
-footer{
+
+footer {
   padding-left: 12%;
 }
-#accordionsample{
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 18px;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 10px;
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}
+
+#accordionsample {
   display: none;
 }
+
 @media (max-width : 1068px) {
-  #accordionsample{
+  #accordionsample {
     display: block;
   }
-  #footer{
+
+  #footer {
     display: none;
   }
 }
