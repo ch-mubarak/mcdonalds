@@ -53,3 +53,14 @@ line-height: 40px;
 footer{
   padding-left: 12%;
 }
+#accordionsample{
+  display: none;
+}
+@media (max-width : 1068px) {
+  #accordionsample{
+    display: block;
+  }
+  #footer{
+    display: none;
+  }
+}
