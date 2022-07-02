@@ -34,31 +34,25 @@
   list-style: none;
 }
 
-.abc {
-  display: flex;
-  justify-content: space-between;
-}
-
 .nav-link {
   font-size: 20px;
   color: Black;
 }
 
 .logo-footer {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
 
 .copyright-text {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 10px;
   color: inherit;
 }
 
 .footer-text {
+  font-size: 15px;
   text-align: left;
-  font-size: 14px;
-  margin-right: 10px;
 }
 
 footer {
@@ -71,7 +65,7 @@ footer {
   background-color: white;
   color: black;
   cursor: pointer;
-  padding: 10px;
+  padding: 10px 3%;
   width: 100%;
   text-align: left;
   border: none;
@@ -104,7 +98,7 @@ footer {
   display: none;
 }
 
-@media (max-width : 1068px) {
+@media (max-width : 1024px) {
   #accordionsample {
     display: block;
   }
